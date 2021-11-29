@@ -5,9 +5,9 @@ jpush integrated template library, pull the code into your project as a lib libr
 
 
 #### integrate
-Integration mode 1： Android Studio->Library Manager->Home Page->GJpush->integrate For one click integration, you need to install the library manager plug-in
-Integration mode 2：Installing using library manager terminal：view->tool windows->Library Manager to open terminal and enter alm install GJpush -v 4.3.0 and install
-Integration mode 3：Directly to your project through the code clone, manually configure the jpush appkey and other related information in app/build.gradle, and configure the dependencies
+Integration mode 1： Android Studio->Library Manager->Home Page->GJpush->integrate For one click integration, you need to install the library manager plug-in  
+Integration mode 2：Installing using library manager terminal：view->tool windows->Library Manager to open terminal and enter alm install GJpush -v 4.3.0 and install  
+Integration mode 3：Directly to your project through the code clone, manually configure the jpush appkey and other related information in app/build.gradle, and configure the dependencies  
 
 Vendor push is not supported at present. If necessary, please manually configure vendor account information and vendor dependent plug-in package. For detailed tutorials, please refer to the official website of jpush
 
