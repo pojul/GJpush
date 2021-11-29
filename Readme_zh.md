@@ -1,15 +1,15 @@
 # GJpush
 
-#### introduce
-jpush integrated template library, pull the code into your project as a lib library, and configure your jpush appkey and applicationid in app/build.gradle
+#### 介绍
+极光推送集成模板库，将代码拉到你的工程中作为一个lib库，并在app/build.gradle中配置你的appkey和applicationid即可使用
 
 
-#### integrate
-Integration mode 1： Android Studio->Library Manager->Home Page->GJpush->integrate For one click integration, you need to install the library manager plug-in
-Integration mode 2：Installing using library manager terminal：view->tool windows->Library Manager to open terminal and enter alm install GJpush -v 4.3.0 and install
-Integration mode 3：Directly to your project through the code clone, manually configure the jpush appkey and other related information in app/build.gradle, and configure the dependencies
+#### 使用Library Manager插件一键集成
+集成方式1： Android Studio->Library Manager->Home Page->GJpush->integrate 一键集成，需要安装Library Manager插件
+集成方式2：使用Library Manager terminal安装：view->tool windows->Library Manager打开terminal，输入alm install GJpush -v 4.3.0安装
+集成方式3：直接经代码clone到你的工程项目中，并手动配置app/build.gradle中极光推送appkey等相关信息，并配置好依赖关系
 
-Vendor push is not supported at present. If necessary, please manually configure vendor account information and vendor dependent plug-in package. For detailed tutorials, please refer to the official website of jpush
+暂不支持厂商推送，如果需要请手动配置厂商账号信息和厂商依赖插件包，详细教程请参考极光推送官网
 
 #### 使用说明
 
@@ -30,4 +30,5 @@ JpushManager.getInstance().setJpushMessageListener(new JpushMessageListener(){
     }
 });
 JpushManager.getInstance().setAlias(DeviceIdUtil.getDeviceId(getApplicationContext()));
+```
 ```
